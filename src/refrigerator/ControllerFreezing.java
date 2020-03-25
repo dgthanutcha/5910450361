@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
@@ -35,6 +36,9 @@ public class ControllerFreezing {
 
     @FXML
     private ImageView sponge;
+
+    @FXML
+    private Label label1;
 
     public void backButton(ActionEvent a){
         Button b = (Button)a.getSource();
@@ -84,18 +88,7 @@ public class ControllerFreezing {
 
     @FXML
     private void handleCherryImage(MouseEvent event){
-        ImageView b = (ImageView) event.getSource();
-        Stage stage = (Stage)b.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("fooddetail.fxml"));
-
-        try {
-            stage.setScene(new Scene(loader.load(), 600, 400));
-            stage.centerOnScreen();
-            stage.show();
-
-        } catch (IOException e1) {
-            e1.printStackTrace();
-        }
+        label1.setText("16/05/20");
     }
 
     @FXML

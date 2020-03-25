@@ -38,7 +38,7 @@ public class ControllerLogin {
             }
         }
         else{
-            status.setText("Username หรือ Password ไม่ถูกต้อง \n\t\tกรุณาลองใหม่.");
+            status.setText("username หรือ password ไม่ถูกต้อง \n\t\tกรุณาลองใหม่อีกครั้ง");
         }
     }
 }

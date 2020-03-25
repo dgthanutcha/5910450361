@@ -8,44 +8,61 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9dc7a7 #9dc7a7 #9dc7a7 #9dc7a7 #9dc7a7 #9dc7a7 #9dc7a7 #9dc7a7;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="refrigerator.ControllerCold">
    <children>
-      <Separator layoutY="187.0" prefHeight="13.0" prefWidth="600.0" />
+      <Separator layoutY="141.0" prefHeight="13.0" prefWidth="600.0" />
       <Button fx:id="back" layoutX="519.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButton" prefHeight="27.0" prefWidth="73.0" text="BACK" textFill="#d01515" />
       <Button fx:id="logout" layoutX="522.0" layoutY="359.0" mnemonicParsing="false" onAction="#logoutButton" text="LOGOUT" textFill="#c90f0f" />
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="20.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="116.0" fitWidth="52.0" layoutX="14.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/BOTELLAS.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="165.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="102.0" fitWidth="87.0" layoutX="144.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/Spinach-PNG-Pic.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="116.0" fitWidth="150.0" layoutX="6.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="78.0" fitWidth="125.0" layoutX="4.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/994998.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="213.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="134.0" fitWidth="103.0" layoutX="165.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/orange_juice1600.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="123.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="116.0" fitWidth="63.0" layoutX="81.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/milk-png-cartoon-3.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="139.0" fitWidth="176.0" layoutX="363.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="97.0" fitWidth="117.0" layoutX="311.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/1002670.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="308.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="82.0" fitWidth="117.0" layoutX="14.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/Watermelon_png_clipart.png" />
          </image>
       </ImageView>
       <Button fx:id="fooddetail" layoutX="520.0" layoutY="50.0" mnemonicParsing="false" onAction="#fooddetailButton" text="fooddetail" textFill="#c61313" />
+      <Separator layoutY="273.0" prefHeight="13.0" prefWidth="600.0" />
+      <Separator layoutX="297.0" layoutY="7.0" orientation="VERTICAL" prefHeight="389.0" prefWidth="1.0" />
+      <ImageView fitHeight="88.0" fitWidth="125.0" layoutX="144.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/cartoon-veggies-clipart-9.png" />
+         </image></ImageView>
+      <ImageView fitHeight="97.0" fitWidth="125.0" layoutX="349.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="81.0" fitWidth="147.0" layoutX="338.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/meat-images-clip-art-imagebasket-net-830x411.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="158.0" layoutX="428.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/11949853781853999105turkey_on_platter_01.svg.hi.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
