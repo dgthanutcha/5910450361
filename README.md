@@ -4,6 +4,8 @@
 นางสาวธนัชชา กิตติอมรภิฒน์
 5910450361
 
+ไฟล์jarอยู่ใน src/5910450361_jar/5910450361.jar
+
 เริ่มจากเข้าสู่ระบบกรอก username and password
 username : admin
 password : java
