@@ -1,7 +1,7 @@
-#Refrigerator
+#Refrigerator Simulator
 
 ## ผู้จัดทำ
-นางสาวธนัชชา กิตติอมรภิวํฒน์
+นางสาวธนัชชา กิตติอมรภิฒน์
 5910450361
 
 เริ่มจากเข้าสู่ระบบกรอก username and password
