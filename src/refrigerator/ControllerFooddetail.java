@@ -5,21 +5,17 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
-
-public class ProfileController {
-
-    @FXML
-    private Button nextPage;
+public class ControllerFooddetail {
 
     @FXML
-    private Button logout;
+    private TextField name;
 
-
-    public void nextPageButton(ActionEvent a){
+    public void refrigeratorButton(ActionEvent a){
         Button b = (Button)a.getSource();
         Stage stage = (Stage)b.getScene().getWindow();
         FXMLLoader loader = new FXMLLoader(getClass().getResource("refrigeratorRoom.fxml"));
@@ -38,6 +34,7 @@ public class ProfileController {
         Button b = (Button)a.getSource();
         Stage stage = (Stage)b.getScene().getWindow();
         FXMLLoader loader = new FXMLLoader(getClass().getResource("login.fxml"));
+
         try {
             stage.setScene(new Scene(loader.load(), 600, 400));
             stage.centerOnScreen();
@@ -48,11 +45,33 @@ public class ProfileController {
         }
     }
 
+    public void backButton(ActionEvent a){
+        Button b = (Button)a.getSource();
+        Stage stage = (Stage)b.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("refrigeratorRoom.fxml"));
 
+        try {
+            stage.setScene(new Scene(loader.load(), 600, 400));
+            stage.centerOnScreen();
+            stage.show();
 
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        }
+    }
 
+    public void okButton(ActionEvent a){
+        Button b = (Button)a.getSource();
+        Stage stage = (Stage)b.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("refrigeratorRoom.fxml"));
 
+        try {
+            stage.setScene(new Scene(loader.load(), 600, 400));
+            stage.centerOnScreen();
+            stage.show();
 
-
-
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        }
+    }
 }

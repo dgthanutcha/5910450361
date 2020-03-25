@@ -6,7 +6,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
@@ -30,7 +29,7 @@ public class ControllerLogin {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("profile.fxml"));
 
             try {
-                stage.setScene(new Scene(loader.load(), 800, 600));
+                stage.setScene(new Scene(loader.load(), 600, 400));
                 stage.centerOnScreen();
                 stage.show();
 

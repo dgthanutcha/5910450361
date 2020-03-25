@@ -13,6 +13,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         primaryStage.setTitle("Refrigerator");
         primaryStage.setScene(new Scene(root, 600, 400));
+        primaryStage.centerOnScreen();
         primaryStage.show();
     }
 

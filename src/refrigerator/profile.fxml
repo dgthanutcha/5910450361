@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9dc7a7 #9dc7a7;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9dc7a7 #9dc7a7;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="refrigerator.ProfileController">
    <children>
       <Button fx:id="nextPage" layoutX="508.0" layoutY="359.0" mnemonicParsing="false" onAction="#nextPageButton" text="NEXT" textFill="#bf0a0a" />
       <ImageView fitHeight="182.0" fitWidth="288.0" layoutX="27.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
@@ -35,5 +35,6 @@
             <Font name="2547_Ddinya-05" size="24.0" />
          </font>
       </Label>
+      <Button fx:id="logout" layoutX="431.0" layoutY="359.0" mnemonicParsing="false" onAction="#logoutButton" text="LOGOUT" textFill="#bf0a0a" />
    </children>
 </AnchorPane>
