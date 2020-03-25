@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9dc7a7 #9dc7a7;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Separator layoutX="-7.0" layoutY="121.0" prefHeight="14.0" prefWidth="600.0" />
+      <Separator layoutY="263.0" prefHeight="14.0" prefWidth="600.0" />
+      <Button layoutX="513.0" layoutY="359.0" mnemonicParsing="false" text="BACK" textFill="#1408c2" />
+      <ImageView fitHeight="102.0" fitWidth="134.0" layoutX="14.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/994998.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="102.0" fitWidth="134.0" layoutX="158.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Watermelon_png_clipart.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="119.0" fitWidth="67.0" layoutX="24.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/BOTELLAS.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="102.0" fitWidth="134.0" layoutX="406.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/cartoon-veggies-clipart-9.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="102.0" fitWidth="134.0" layoutX="300.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Spinach-PNG-Pic.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="102.0" fitWidth="134.0" layoutX="473.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/png-to-color-svg-online-1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="119.0" fitWidth="67.0" layoutX="116.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/milk-png-cartoon-3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="119.0" layoutX="188.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/orange_juice1600.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="119.0" fitWidth="119.0" layoutX="300.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/d63b100c3267847b2e5490b8bd4a6227-ilustraci--n-de-chocolate-vainilla-donut-by-vexels.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
